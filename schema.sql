@@ -1,0 +1,1 @@
+CREATE TABLE tweets (id INTEGER PRIMARY KEY, created_at DATETIME, text TEXT);
