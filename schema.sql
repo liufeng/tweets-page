@@ -1,1 +1,4 @@
-CREATE TABLE tweets (id INTEGER PRIMARY KEY, created_at DATETIME, text TEXT);
+DROP TABLE IF EXISTS tweets;
+
+CREATE TABLE tweets (id INTEGER PRIMARY KEY, created_at DATETIME, text TEXT); -- SQLite
+-- CREATE TABLE tweets (id BIGINT PRIMARY KEY, created_at DATETIME, text VARCHAR(140)); -- MySQL
